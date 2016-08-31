@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "DMOLAPKilaf", "DMOLAPKilaf\DMOLAPKilaf.dwproj", "{515D6435-973C-4302-9C37-1951C9F0B58C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{515D6435-973C-4302-9C37-1951C9F0B58C}.Development|Default.ActiveCfg = Development
+		{515D6435-973C-4302-9C37-1951C9F0B58C}.Development|Default.Build.0 = Development
+		{515D6435-973C-4302-9C37-1951C9F0B58C}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

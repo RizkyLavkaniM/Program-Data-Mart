@@ -1,0 +1,103 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>DMOLAPKilaf</Database>
+    <Server>localhost</Server>
+    <ConnectionString>DataSource=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>ahkeGNLIJ9o3RozJcAguyBc8Fiw=8/25/2016 7:57:56 AM8/25/2016 7:57:56 AM</TimeStamp>
+        <ID>
+          <String>Db Kertas Dm</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>mFQleybLGp9wJ+1L3MAYAz0i+Qw=8/25/2016 7:58:08 AM8/25/2016 7:58:08 AM</TimeStamp>
+        <ID>
+          <String>Db Kertas Dm</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>MFImlknyck6IuBLoYdbgnE8EGvo=8/25/2016 7:58:42 AM8/25/2016 7:58:22 AM</TimeStamp>
+        <ID>
+          <String>Dim Kertas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>XXhhwcc42ZvVPR/DX4SCwEx2fX8=8/25/2016 8:04:45 AM8/25/2016 8:04:01 AM</TimeStamp>
+        <ID>
+          <String>Dim Konsumen</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>kgPaMMSUB5wicu9ucLs+CL7Su14=8/25/2016 8:05:30 AM8/25/2016 8:05:12 AM</TimeStamp>
+        <ID>
+          <String>Dim Npk</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Gbb6uCFhJfuqga5EPMeq6IZxCR4=8/25/2016 8:06:36 AM8/25/2016 8:06:13 AM</TimeStamp>
+        <ID>
+          <String>Dim Penjualan</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Euiauz3miw/w0/ppCfsyxTFr7cg=8/25/2016 8:07:51 AM8/25/2016 8:07:10 AM</TimeStamp>
+        <ID>
+          <String>Dim Waktu</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>pCqrxndRTscxqYt1U8NZxMZJ560=8/25/2016 8:09:02 AM8/25/2016 8:09:02 AMYFzMaFvJp12M4rOGNvQcq19dfn0=8/25/2016 8:09:02 AM8/25/2016 8:09:02 AM</TimeStamp>
+        <ID>
+          <String>Db Kertas Dm Penjualan</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>LC4QE1R8GHnptfe4jy8+75Qw53E=8/25/2016 8:10:22 AM8/25/2016 8:10:22 AMuZl/w/ztrLHXCuswvjciStbgu3I=8/25/2016 8:10:22 AM8/25/2016 8:10:22 AM</TimeStamp>
+        <ID>
+          <String>Db Kertas Dm Retur</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>TjdW2qjxqFf2qEo4j2YI0wBOdQg=8/25/2016 8:12:22 AM8/25/2016 8:12:22 AMcF5rBSnMymvM32TpnWr1pFQQ2xo=8/25/2016 8:12:22 AM8/25/2016 8:12:22 AM</TimeStamp>
+        <ID>
+          <String>Db Kertas Dm NPK</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>HZnXgm3EIpJuW54WembPfsomOAE=7/21/2016 8:10:18 PM7/21/2016 8:10:17 PM</TimeStamp>
+      <ID>
+        <String>DMOLAPKilaf</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2016-08-25T01:12:26.773333Z</LastDeployed>
+</DeploymentSnapshot>

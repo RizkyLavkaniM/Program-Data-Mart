@@ -1,0 +1,249 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f1e06e0b-31b8-467a-96cd-de7a6a52b32e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Db Kertas Dm</ID>
+  <Name>Db Kertas Dm</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Db Kertas Dm</DataSourceID>
+  <Schema>
+    <xs:schema id="Db_x0020_Kertas_x0020_Dm" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Db_x0020_Kertas_x0020_Dm" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="c09addd3-fba4-4f73-96a3-800f1cdece8b">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_dim_kertas" msprop:design-time-name="def4ef0c-6f78-4c1e-a8dd-d05f2a119287" msprop:DbTableName="dim_kertas" msprop:FriendlyName="dim_kertas" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id_kertas" msprop:design-time-name="959aaa02-4f77-4fe2-ae7e-f2d752317b31" msprop:DbColumnName="id_kertas" msprop:FriendlyName="id_kertas" type="xs:int" />
+                  <xs:element name="jenis_kertas" msprop:design-time-name="6c348660-1a95-422d-8430-8c06359d2082" msprop:DbColumnName="jenis_kertas" msprop:FriendlyName="jenis_kertas">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_dim_konsumen" msprop:design-time-name="4e15bd75-03d3-496a-ab35-a73723cd18db" msprop:DbTableName="dim_konsumen" msprop:FriendlyName="dim_konsumen" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id_konsumen" msprop:design-time-name="98fa2c5a-1cae-44f8-ae21-bc5b4cd9a3c1" msprop:DbColumnName="id_konsumen" msprop:FriendlyName="id_konsumen" type="xs:int" />
+                  <xs:element name="nama_konsumen" msprop:design-time-name="9f9133cc-bb0b-4ce4-9f53-9c96054a4071" msprop:DbColumnName="nama_konsumen" msprop:FriendlyName="nama_konsumen">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_dim_npk" msprop:design-time-name="a9f16fa6-1e4a-4efc-9f9b-943afb11d0b6" msprop:DbTableName="dim_npk" msprop:FriendlyName="dim_npk" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="no_npk" msprop:design-time-name="8372d547-6355-4dde-9de9-26ddd526f17a" msprop:DbColumnName="no_npk" msprop:FriendlyName="no_npk">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="no_kendaraan" msprop:design-time-name="ea205033-3810-4e2e-98a9-94afe4aaaa20" msprop:DbColumnName="no_kendaraan" msprop:FriendlyName="no_kendaraan" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_dim_penjualan" msprop:design-time-name="28d765bd-7131-4cd1-b55d-57877381ce12" msprop:DbTableName="dim_penjualan" msprop:FriendlyName="dim_penjualan" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="no_faktur" msprop:design-time-name="7b761f93-3360-4c92-b3eb-14651c18f3b6" msprop:DbColumnName="no_faktur" msprop:FriendlyName="no_faktur">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="id_konsumen" msprop:design-time-name="320433bc-e0c6-440f-bb93-9cf7e8498289" msprop:DbColumnName="id_konsumen" msprop:FriendlyName="id_konsumen" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_dim_waktu" msprop:design-time-name="282fc53b-3abc-417f-96b7-82dd995bf7a0" msprop:DbTableName="dim_waktu" msprop:FriendlyName="dim_waktu" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="id_waktu" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="35cc3605-d232-4386-a9ea-d289ec440aab" msprop:DbColumnName="id_waktu" msprop:FriendlyName="id_waktu" type="xs:int" />
+                  <xs:element name="tanggal" msprop:design-time-name="b83a0c85-f841-40b8-bb8d-5e0a1cc08fa5" msprop:DbColumnName="tanggal" msprop:FriendlyName="tanggal" type="xs:int" />
+                  <xs:element name="bulan" msprop:design-time-name="b01c7455-4bcb-4238-aa63-a9cae38358a4" msprop:DbColumnName="bulan" msprop:FriendlyName="bulan" type="xs:int" />
+                  <xs:element name="bulan_nama" msprop:design-time-name="95f04fa5-22b2-4a5e-9e66-abaac3d88769" msprop:DbColumnName="bulan_nama" msprop:FriendlyName="bulan_nama">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="tahun" msprop:design-time-name="ae0a050e-be5a-4c80-a417-74c29ec9aa1d" msprop:DbColumnName="tahun" msprop:FriendlyName="tahun" type="xs:int" />
+                  <xs:element name="full_date" msprop:design-time-name="f9128b7f-df96-47af-9e12-c2bae38d713a" msprop:DbColumnName="full_date" msprop:FriendlyName="full_date" type="xs:dateTime" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_fact_npk" msprop:design-time-name="cf14a36a-769d-4009-80a3-7c99e9f9fa3a" msprop:DbTableName="fact_npk" msprop:FriendlyName="fact_npk" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="no_npk" msprop:design-time-name="e4aeeaee-7f18-435b-b09a-b6ffca036f3c" msprop:DbColumnName="no_npk" msprop:FriendlyName="no_npk">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="id_waktu" msprop:design-time-name="e4b43997-6d97-4f11-b49c-7c8ce0826e15" msprop:DbColumnName="id_waktu" msprop:FriendlyName="id_waktu" type="xs:int" />
+                  <xs:element name="quantum" msprop:design-time-name="4ed5533e-61b6-4c18-a07f-dc44126480d3" msprop:DbColumnName="quantum" msprop:FriendlyName="quantum" type="xs:double" />
+                  <xs:element name="no_faktur" msprop:design-time-name="2523614e-2cbf-4d99-abbb-164ff4df7024" msprop:DbColumnName="no_faktur" msprop:FriendlyName="no_faktur">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_fact_penjualan" msprop:design-time-name="620a0669-e5eb-42d6-872b-c83b055d00cf" msprop:DbTableName="fact_penjualan" msprop:FriendlyName="fact_penjualan" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="no_faktur" msprop:design-time-name="d1382e1d-3cb7-4465-8cf4-95d8e6c9bdb2" msprop:DbColumnName="no_faktur" msprop:FriendlyName="no_faktur">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="id_waktu" msprop:design-time-name="09c2accc-ee08-4ce7-9135-e3115036ad4e" msprop:DbColumnName="id_waktu" msprop:FriendlyName="id_waktu" type="xs:int" />
+                  <xs:element name="id_kertas" msprop:design-time-name="140f418b-492f-45d0-a6ff-ea926ca3ee55" msprop:DbColumnName="id_kertas" msprop:FriendlyName="id_kertas" type="xs:int" />
+                  <xs:element name="quantum" msprop:design-time-name="f04c1484-700b-4682-9346-422fb5103581" msprop:DbColumnName="quantum" msprop:FriendlyName="quantum" type="xs:double" />
+                  <xs:element name="total" msprop:design-time-name="48479ec9-08a5-47a8-9260-f7382f843e87" msprop:DbColumnName="total" msprop:FriendlyName="total" type="xs:double" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_fact_retur" msprop:design-time-name="7ec2a1a2-d490-4ab6-8dfe-bc5f9173da68" msprop:DbTableName="fact_retur" msprop:FriendlyName="fact_retur" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="no_faktur" msprop:design-time-name="0bc875ee-fb37-414a-b98d-41ceab2db867" msprop:DbColumnName="no_faktur" msprop:FriendlyName="no_faktur">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="id_waktu" msprop:design-time-name="c95c7e5c-6416-481e-ae71-e026d9b1e425" msprop:DbColumnName="id_waktu" msprop:FriendlyName="id_waktu" type="xs:int" />
+                  <xs:element name="id_kertas" msprop:design-time-name="479d9be6-289d-4605-b1d5-ab619428985a" msprop:DbColumnName="id_kertas" msprop:FriendlyName="id_kertas" type="xs:int" />
+                  <xs:element name="quantum" msprop:design-time-name="32499915-64a7-4faa-aaf7-95041ba0ec40" msprop:DbColumnName="quantum" msprop:FriendlyName="quantum" type="xs:double" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_dim_kertas" />
+          <xs:field xpath="id_kertas" />
+        </xs:unique>
+        <xs:unique name="dbo_dim_konsumen_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_dim_konsumen" />
+          <xs:field xpath="id_konsumen" />
+        </xs:unique>
+        <xs:unique name="dbo_dim_npk_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_dim_npk" />
+          <xs:field xpath="no_npk" />
+        </xs:unique>
+        <xs:unique name="dbo_dim_penjualan_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_dim_penjualan" />
+          <xs:field xpath="no_faktur" />
+        </xs:unique>
+        <xs:unique name="dbo_dim_waktu_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_dim_waktu" />
+          <xs:field xpath="id_waktu" />
+        </xs:unique>
+        <xs:keyref name="FK_fact_retur_dim_kertas" refer="Constraint1">
+          <xs:selector xpath=".//dbo_fact_retur" />
+          <xs:field xpath="id_kertas" />
+        </xs:keyref>
+        <xs:keyref name="FK_fact_retur_dim_penjualan" refer="dbo_dim_penjualan_Constraint1">
+          <xs:selector xpath=".//dbo_fact_retur" />
+          <xs:field xpath="no_faktur" />
+        </xs:keyref>
+        <xs:keyref name="FK_fact_retur_dim_waktu" refer="dbo_dim_waktu_Constraint1">
+          <xs:selector xpath=".//dbo_fact_retur" />
+          <xs:field xpath="id_waktu" />
+        </xs:keyref>
+        <xs:keyref name="FK_fact_penjualan_dim_waktu" refer="dbo_dim_waktu_Constraint1">
+          <xs:selector xpath=".//dbo_fact_penjualan" />
+          <xs:field xpath="id_waktu" />
+        </xs:keyref>
+        <xs:keyref name="FK_fact_penjualan_dim_penjualan" refer="dbo_dim_penjualan_Constraint1">
+          <xs:selector xpath=".//dbo_fact_penjualan" />
+          <xs:field xpath="no_faktur" />
+        </xs:keyref>
+        <xs:keyref name="FK_fact_penjualan_dim_barang" refer="Constraint1">
+          <xs:selector xpath=".//dbo_fact_penjualan" />
+          <xs:field xpath="id_kertas" />
+        </xs:keyref>
+        <xs:keyref name="FK_fact_npk_dim_penjualan" refer="dbo_dim_penjualan_Constraint1">
+          <xs:selector xpath=".//dbo_fact_npk" />
+          <xs:field xpath="no_faktur" />
+        </xs:keyref>
+        <xs:keyref name="FK_fact_npk_dim_npk" refer="dbo_dim_npk_Constraint1">
+          <xs:selector xpath=".//dbo_fact_npk" />
+          <xs:field xpath="no_npk" />
+        </xs:keyref>
+        <xs:keyref name="FK_fact_npk_dim_waktu" refer="dbo_dim_waktu_Constraint1">
+          <xs:selector xpath=".//dbo_fact_npk" />
+          <xs:field xpath="id_waktu" />
+        </xs:keyref>
+        <xs:keyref name="FK_dim_penjualan_dim_konsumen" refer="dbo_dim_konsumen_Constraint1">
+          <xs:selector xpath=".//dbo_dim_penjualan" />
+          <xs:field xpath="id_konsumen" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Db_x0020_Kertas_x0020_Dm xmlns="" />
+  </Schema>
+</DataSourceView>

@@ -1,0 +1,25 @@
+c:\users\ihsan\documents\visual studio 2012\Projects\DMKilaf\DMKilaf\bin\Debug\DMKilaf.exe
+c:\users\ihsan\documents\visual studio 2012\Projects\DMKilaf\DMKilaf\bin\Debug\DMKilaf.pdb
+c:\users\ihsan\documents\visual studio 2012\Projects\DMKilaf\DMKilaf\obj\Debug\DMKilaf.csprojResolveAssemblyReference.cache
+c:\users\ihsan\documents\visual studio 2012\Projects\DMKilaf\DMKilaf\obj\Debug\DMKilaf.FormDataMart.resources
+c:\users\ihsan\documents\visual studio 2012\Projects\DMKilaf\DMKilaf\obj\Debug\DMKilaf.Properties.Resources.resources
+c:\users\ihsan\documents\visual studio 2012\Projects\DMKilaf\DMKilaf\obj\Debug\DMKilaf.csproj.GenerateResource.Cache
+c:\users\ihsan\documents\visual studio 2012\Projects\DMKilaf\DMKilaf\obj\Debug\DMKilaf.exe
+c:\users\ihsan\documents\visual studio 2012\Projects\DMKilaf\DMKilaf\obj\Debug\DMKilaf.pdb
+c:\users\ihsan\documents\visual studio 2012\Projects\DMKilaf\DMKilaf\obj\Debug\DMKilaf.exe.licenses
+C:\Users\IHSAN\documents\visual studio 2012\Projects\DMKilaf\DMKilaf\bin\Debug\DMKilaf.exe.config
+D:\Portofolio\Kilaf\DMKilaf\DMKilaf\obj\Debug\DMKilaf.exe
+D:\Portofolio\Kilaf\DMKilaf\DMKilaf\obj\Debug\DMKilaf.pdb
+D:\Portofolio\Kilaf\DMKilaf\DMKilaf\bin\Debug\DMKilaf.exe
+D:\Portofolio\Kilaf\DMKilaf\DMKilaf\bin\Debug\DMKilaf.pdb
+D:\Portofolio\Kilaf\DMKilaf\DMKilaf\obj\Debug\DMKilaf.csprojResolveAssemblyReference.cache
+D:\Portofolio\Kilaf\DMKilaf\DMKilaf\obj\Debug\DMKilaf.FormDataMart.resources
+D:\Portofolio\Kilaf\DMKilaf\DMKilaf\obj\Debug\DMKilaf.Properties.Resources.resources
+D:\Portofolio\Kilaf\DMKilaf\DMKilaf\obj\Debug\DMKilaf.csproj.GenerateResource.Cache
+D:\Portofolio\Kilaf\DMKilaf\DMKilaf\obj\Debug\DMKilaf.exe.licenses
+D:\Portofolio\Kilaf\DMKilaf\DMKilaf\bin\Debug\DMKilaf.exe.config
+C:\Users\IHSAN\Documents\Visual Studio 2012\Projects\DMKilaf\DMKilaf\bin\Debug\Resources\Package.dtsx
+C:\Users\IHSAN\Documents\Visual Studio 2012\Projects\DMKilaf\DMKilaf\bin\Debug\Microsoft.SqlServer.DTSRuntimeWrap.dll
+D:\Portofolio\Kilaf\DMKilaf\DMKilaf\bin\Debug\Resources\Package.dtsx
+D:\Portofolio\Kilaf\DMKilaf\DMKilaf\bin\Debug\Microsoft.SqlServer.DTSRuntimeWrap.dll
+D:\Portofolio\Kilaf\DMKilaf\DMKilaf\obj\Debug\DMKilaf.WaitForm1.resources
